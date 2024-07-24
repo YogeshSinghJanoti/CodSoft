@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(95, 103, 142);
+    color: rgb(133, 175, 55);
+    font-size: 2rem;
+    font-family: cursive;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(2, 2, 35);
+    height: 100px;
+}
+
+.outer {
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+    font-size: 2rem;
+}
+
+nav a {
+    color: #22a37b;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: rgb(72, 61, 163);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  #resume img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    width: 40%; 
+  }
+
+.navbar ul li a {
+    color: #ffffff; 
+    text-decoration: none;
+  }
+
+  .navbar ul li a:hover {
+    color: #05182e;
+  }
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .contact-links a {
+    color: #5e5abe;
+    text-decoration: none; 
+  }
+  
+  .contact-links a:hover {
+    color: #32715d; 
+  }
+
+  .author-pic {
+    width: 300px;  
+    border-radius: 400%; 
+    margin: 20px auto;
+  }
+
+  .copyright {
+    font-size: 20px;
+    color: #97549d;
+    text-align: center;
+  }
